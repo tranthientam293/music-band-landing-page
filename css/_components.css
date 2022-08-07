@@ -1,0 +1,19 @@
+/* BUTTON */
+.btn {
+  font-family: "Lato", sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+
+  background-color: var(--black);
+  color: var(--white);
+
+  border: none;
+  cursor: pointer;
+
+  padding: 8px 16px;
+}
+
+.btn:hover {
+  color: var(--black);
+  background-color: var(--gray-100);
+}
