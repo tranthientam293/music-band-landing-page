@@ -2,24 +2,28 @@
 /* RESET CSS */
 /* ****** */
 
-* {
+*,
+*::after,
+*::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--ff-1);
   font-size: 15px;
   line-height: 1.5;
-  font-weight: 400px;
+  font-weight: 400;
 
-  color: var(--black);
+  color: var(--black-01);
 }
 
 a {
+  display: inline-block;
+  font: inherit;
   text-decoration: none;
-  color: var(--black);
+  color: var(--black-01);
 }
 
 li {
@@ -28,6 +32,28 @@ li {
 
 img {
   display: block;
+  width: 100%;
+}
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  font: inherit;
+  line-height: inherit;
+  color: var(--black-01);
+  background-color: var(--white-01);
+
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  font: inherit;
+  padding: 8px;
+  border: 0.5px solid var(--gray-01);
+  border-radius: 0;
 }
 
 h1 {
@@ -45,16 +71,21 @@ h2 {
 /* ****** */
 
 .heading-primary {
+  font-family: var(--ff-2);
+  font-size: 30px;
   text-transform: uppercase;
   margin: 10px 0;
   text-align: center;
+  letter-spacing: 4px;
 }
 
 .sub-heading-primary {
-  font-family: "Lato", sans-serif;
+  font-family: var(--ff-1);
   font-style: italic;
 
-  color: var(--gray-200);
+  color: var(--gray-01);
+  text-align: center;
+  margin: 15px 0;
 }
 
 .heading-secondary {

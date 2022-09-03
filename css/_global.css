@@ -1,7 +1,13 @@
 :root {
-  --white: #fff;
-  --black: #000;
-  --red: #f44366;
-  --gray-100: #ccc;
-  --gray-200: #848484;
+  --white-01: #fff;
+  --black-01: #000;
+  --red-01: #f44366;
+  --gray-01: #ccc;
+  --gray-02: #848484;
+  --gray-03: #757575;
+
+  --green-01: #009688;
+
+  --ff-1: "Lato", sans-serif;
+  --ff-2: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

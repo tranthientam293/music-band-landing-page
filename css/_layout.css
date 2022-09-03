@@ -5,6 +5,10 @@
   padding: 74px 16px 64px;
 }
 
+.container-fluid {
+  width: 100%;
+}
+
 .grid {
   --grid-cols: 1;
 

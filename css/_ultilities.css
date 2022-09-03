@@ -1,0 +1,7 @@
+.d-hidden {
+  display: none;
+}
+
+.t-color-white {
+  color: var(--white-01);
+}

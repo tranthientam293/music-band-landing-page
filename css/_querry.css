@@ -1,0 +1,69 @@
+@media (max-width: 600px) {
+  .navbar {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .collapse {
+    display: none;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .nav-item:last-child {
+    display: block;
+  }
+  .search-btn {
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
+
+  /* ***** */
+  /* SLIDER */
+  /* ***** */
+  .member-box {
+    flex-direction: column;
+  }
+  /* ***** */
+  /* TOUR */
+  /* ***** */
+  .tour-desc {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  /* ***** */
+  /* CONTACT */
+  /* ***** */
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-content-item {
+    flex-basis: 100%;
+    margin-bottom: 16px;
+  }
+
+  /* FORM */
+  .form-control {
+    flex-basis: 100%;
+  }
+}
