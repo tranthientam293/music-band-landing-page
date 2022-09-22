@@ -8,6 +8,37 @@ btn.addEventListener("click", function () {
   console.log(collapseTarget);
 });
 
+//Slider
+
+const sliders = document.querySelectorAll(".slider-box");
+index = 0;
+
+function reset() {
+  sliders.forEach(function (item) {
+    item.style.display = "none";
+  });
+}
+
+function showStartSlide() {
+  reset();
+  sliders[index].style.display = "block";
+}
+
+showStartSlide();
+
+function implementSlide() {
+  reset();
+  sliders[index].style.display = "block";
+  index++;
+  if (index > sliders.length - 1) {
+    index = 0;
+  }
+
+  setTimeout(implementSlide, 5000);
+}
+implementSlide();
+
+
 // Modal
 const modalTriggers = document.querySelectorAll('[data-toggle="buy-tickets"]');
 const closeBtns = document.querySelectorAll('[data-toggle="dismiss"]');
