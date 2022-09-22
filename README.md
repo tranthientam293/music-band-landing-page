@@ -1,2 +1,2 @@
-# the-band
- website of music band
+# Music band landing page
+ [website of music band](https://band-clone.netlify.app/)
